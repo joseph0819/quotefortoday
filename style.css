@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: linear-gradient(45deg,#F17C58, #E94584, #24AADB , #27DBB1,#FFDC18, #FF3706);
+  background-size: 600% 600%;
+  animation: gradient 16s linear infinite;
+  animation-direction: alternate;
+}
+@keyframes gradient {
+  0% {background-position: 0%}
+  100% {background-position: 100%}
+
+}
+.container{
+    width: 50%;
+    height: 300px;
+    margin: 90px auto;
+    background-color: white;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    margin: 40px auto;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+
+}
+.output{
+    font-family: sans-serif;
+    text-align: center;
+    padding: 5px 20px;
+}
+.btn{
+    width: 25%;
+    position: relative; 
+    top: 48px;
+    right: -420px;
+    padding: 9px 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border-radius: 30px;
+    border: 1px solid;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: 600;
+    background: linear-gradient(45deg,#F17C58, #E94584, #24AADB , #27DBB1,#FFDC18, #FF3706);
+    background-size: 600% 100%;
+    animation: gradient 16s linear infinite;
+    animation-direction: alternate;
+  }
+  @keyframes gradient {
+    0% {background-position: 0%}
+    100% {background-position: 100%}
+  }
+@keyframes gradient {
+  0% {background-position: 0%}
+  100% {background-position: 100%}
+}
+
+@media only screen and (max-width : 430px) {
+  .container{
+    width: 85%;
+    height: 40vh;
+   margin: 30% auto;
+  }
+  .btn{
+    width: 45%;
+    position: relative; 
+    top: 48px;
+    right: -94px;
+    padding: 6px 6px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border-radius: 16px;
+    border: 1px solid;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    background: linear-gradient(45deg,#F17C58, #E94584, #24AADB , #27DBB1,#FFDC18, #FF3706);
+    background-size: 600% 100%;
+    animation: gradient 16s linear infinite;
+    animation-direction: alternate;
+  }
+  @keyframes gradient {
+    0% {background-position: 0%}
+    100% {background-position: 100%}
+  }
+@keyframes gradient {
+  0% {background-position: 0%}
+  100% {background-position: 100%}
+}
+  
+  .output{
+    font-family: sans-serif;
+    text-align: center;
+    padding: 5px 20px;
+    font-size: 18px;
+    margin: 0 auto;
+  }
+  .title{
+    margin: 40px auto;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+}
+
